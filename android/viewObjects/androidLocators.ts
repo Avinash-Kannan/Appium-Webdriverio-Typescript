@@ -1,5 +1,6 @@
 import { Browser } from "webdriverio";
 
+// baisc xpaths not related to app used
 export default class AndroidLocators {
 	public static locators = {
 		floatingActionButton: "id:com.android.contacts:id/floating_action_button",
